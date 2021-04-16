@@ -18,12 +18,12 @@ $ wrk -c 10000 -d 60 -t 4 http://localhost:4000
 Running 1m test @ http://localhost:4000
   4 threads and 10000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
-    Latency    38.95ms    9.53ms 171.24ms   79.94%
-    Req/Sec    15.57k     4.36k   24.69k    83.57%
-  3510797 requests in 1.00m, 314.73MB read
-  Socket errors: connect 7450, read 47750, write 0, timeout 2550
-Requests/sec:  58475.77
-Transfer/sec:      5.24MB
+    Latency    39.63ms   30.72ms 840.48ms   98.15%
+    Req/Sec    16.06k     4.19k   24.33k    83.81%
+  3764268 requests in 1.00m, 337.45MB read
+  Socket errors: connect 7450, read 34149, write 0, timeout 0
+Requests/sec:  62633.90
+Transfer/sec:      5.61MB
 ```
 
 ## fiber-api
